@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "TPC-Directory",
+    "slug": "TPC-Directory",
+    "privacy": "public",
+    "version": "2.2",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tpc.tpcdirectory",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "This app uses Authentication with TouchId or FaceID"
+      }
+    },
+    "android": {
+      "package": "com.tpc.tpcdirectory",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6b31096d-4eaf-4cfe-ba10-e9d7157bb69d"
+      }
+    },
+    "owner": "kevinjames"
+  }
+}
