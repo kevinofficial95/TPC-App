@@ -34,6 +34,8 @@ export default function BottomTabNavigator() {
       />
       <BottomTab.Screen
         name="OurTeam"
+
+        
         component={OurTeam}
         options={{
           tabBarIcon: ({ color }) => (
