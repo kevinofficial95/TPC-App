@@ -28,7 +28,7 @@ export default function BottomTabNavigator() {
         component={Contacts}
         options={{
           tabBarIcon: ({ color }) => (
-            <AntDesign name="contacts" size={24} color="red" />
+            <AntDesign name="contacts" size={24} color="black" />
           ),
         }}
       />
